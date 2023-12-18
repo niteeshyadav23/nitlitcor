@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C8B1416D-130C-493D-B2DB-56B7AE002914}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "windows", "windows", "{9A401285-906E-4E73-94F3-DC9CC65410BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vibration", "src\windows\Vibration\Vibration.csproj", "{947FB37D-AB99-4A11-90E4-D3A535608975}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{947FB37D-AB99-4A11-90E4-D3A535608975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{947FB37D-AB99-4A11-90E4-D3A535608975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{947FB37D-AB99-4A11-90E4-D3A535608975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{947FB37D-AB99-4A11-90E4-D3A535608975}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9A401285-906E-4E73-94F3-DC9CC65410BB} = {C8B1416D-130C-493D-B2DB-56B7AE002914}
+		{947FB37D-AB99-4A11-90E4-D3A535608975} = {9A401285-906E-4E73-94F3-DC9CC65410BB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EB0C591-5180-4F50-A97C-9BBA663B4722}
+	EndGlobalSection
+EndGlobal
